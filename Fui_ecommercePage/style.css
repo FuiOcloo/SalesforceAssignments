@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgb(24, 35, 82);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  background-color: rgb(223, 132, 47);
+  background-repeat: no-repeat;
+  background-size: 1500px 1000px;
+}
+
+.main-nav {
+  text-align: left;
+  font-size: 1.1em;
+  font-weight: lighter;
+  border-bottom: 1px solid rgba(255, 255, 255, .3)
+}
+
+.store-name {
+  text-align: center;
+  margin: 10px;
+  font-size: 6.1em;
+  font-weight: bolder;
+  border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+.main-header {
+  background-color: rgba(146, 183, 201, 0.6);
+  background-image: url("pictures/headerbackground.jpeg");
+  background-blend-mode: multiply;
+  background-size: auto;
+  padding-bottom: 1px;
+}
+
+#categories {
+  text-align: center;
+  margin: 10px;
+  font-size: 2.1em;
+  font-weight: bolder;
+  border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+#cat-name{
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.cat-pic1{
+  max-height: 400px;
+  max-width: 380px;
+  border-radius: 8px;
+  display: none;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.cat-pic2{
+max-height: 400px;
+max-width: 380px;
+border-radius: 8px;
+display: none;
+margin-right: auto;
+margin-left: auto;
+}
+
+.cat-pic3{
+max-height: 400px;
+max-width: 380px;
+border-radius: 8px;
+display: none;
+margin-right: auto;
+margin-left: auto;
+}
+
+/* .imagess{
+max-width: 200px;
+height: 50%;
+width: 50%;
+border-radius: 8px;
+display: none;
+margin-right: auto;
+margin-left: auto;
+} */
+
+.btn-primary {
+  color: #fff;
+  background-color: #e2f025;
+  border-color:  #e2f025;
+  height: 35px;
+  width: 130px;
+  display: block;
+  justify-content: center;
+  margin: auto;
+}
+
+.btn-primary:hover {
+  color: #e2f025;
+  background-color: #e2f025;
+  border-color: #e2f025;
+}
+
+
+.btn-secondary {
+  color: #fff;
+  background-color: #8f4843;
+  border-color: #8f4843;
+  height: 35px;
+  width: 130px;
+  display: block;
+  justify-content: center;
+  margin: auto;
+}
+
+.btn-secondary:hover {
+  color: #fff;
+  background-color: #8f4843;
+  border-color: #8f4843;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #4ab361;
+  border-color:#4ab361;
+  height: 35px;
+  width: 130px;
+  display: block;
+  justify-content: center;
+  margin: auto;
+}
+
+.btn-success:hover {
+  color: #fff;
+  background-color: #4ab361;
+  border-color:#4ab361;
+}
+
+.shop-item-title{
+  font-family: cursive;
+  font-weight: bolder;
+  font-size: medium;
+}
